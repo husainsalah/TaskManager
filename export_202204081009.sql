@@ -1,0 +1,9 @@
+INSERT INTO TaskManager.dbo.AspNetUsers (Id,UserName,NormalizedUserName,Email,NormalizedEmail,EmailConfirmed,PasswordHash,SecurityStamp,ConcurrencyStamp,PhoneNumber,PhoneNumberConfirmed,TwoFactorEnabled,LockoutEnd,LockoutEnabled,AccessFailedCount,Name,DateOfBirth,Password) VALUES
+	 (N'3c66bc5c-f8cf-4fb8-afb9-907420e38e2b',N'a@a.com',N'A@A.COM',N'a@a.com',N'A@A.COM',0,N'AQAAAAEAACcQAAAAEExsLgEi1TwDIN9snFSwvbue9JwUnqDTawS9zwb2ZaowtDYbU8B3rg/3fkwpdUMCkg==',N'Y7O4F3FYF7ULXOMONYXIKTPUPDO5G2P3',N'7774064c-c286-4763-98c7-f057538bf424',NULL,0,0,NULL,1,0,NULL,NULL,NULL),
+	 (N'4648ea41-5dd4-49fd-a8f9-5ab82da81473',N'email@email.com',N'EMAIL@EMAIL.COM',N'email@email.com',N'EMAIL@EMAIL.COM',0,N'AQAAAAEAACcQAAAAELZfi9ZEPl1OGti/VXmalzKNYnFQJD/9uiYYn6sY8bXPj7peKDZgTWgscHMtf1WRdA==',N'IABNHGFWVPVWGZEHEKE7F3OASTGB3JAM',N'35e24d79-bc94-4daf-b794-b4f4dc1d2023',NULL,0,0,NULL,1,0,NULL,NULL,NULL),
+	 (N'e4dc5bd5-df48-4885-bdb6-6edbbdd0b358',N'husain.salah@gmail.com',N'HUSAIN.SALAH@GMAIL.COM',N'husain.salah@gmail.com',N'HUSAIN.SALAH@GMAIL.COM',0,N'AQAAAAEAACcQAAAAEOXQHbf2+nhLVD4XWyciUaW0HeIeuaJEt8v1T9jNU6IBYb8OqYH0TWcOq/3XXWODsQ==',N'5TWSJFIGN5Z2MWQPEVYO5IUX44VYILZ2',N'e3509291-3526-4071-b172-700d3c688d5c',NULL,0,0,NULL,1,0,NULL,NULL,NULL);INSERT INTO TaskManager.dbo.TaskListItems (DueDate,Description,Completed) VALUES
+	 ('2022-04-07 16:58:51.527',N'task',0),
+	 ('2001-04-07 21:34:50.0',N'This is a first task ',0),
+	 ('2022-04-05 21:37:30.0',N'This is a second task editted ',0),
+	 ('2021-01-10 00:00:00.0',N'This is the 3rd task',0);INSERT INTO TaskManager.dbo.[__EFMigrationsHistory] (MigrationId,ProductVersion) VALUES
+	 (N'20220406171029_IdentityDBUser',N'3.1.0');
